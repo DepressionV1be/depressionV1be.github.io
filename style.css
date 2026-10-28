@@ -1,0 +1,45 @@
+body {
+    background-image:
+    url(background.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p {
+    max-width: 500px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+   img {
+    border-radius: 15px;
+   }
+   .telegram-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #799773;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Эффект при наведении */
+.telegram-btn:hover {
+    background: #168ac0;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(34, 158, 217, 0.35);
+}
+
+/* Эффект при нажатии */
+.telegram-btn:active {
+    transform: scale(0.97);
+}
+
+
